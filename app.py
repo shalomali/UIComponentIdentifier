@@ -4,7 +4,7 @@ import tensorflow as tf
 from inference import run_ui_inference
 
 # Load your model and classes
-model = tf.keras.models.load_model("ui_sketch_model.keras")
+model = tf.keras.models.load_model("ui_sketch_model.h5")
 CLASS_NAMES = ['button', 'dropdown_menu', 'image', 'switch_enabled', 'text_field']
 
 # Use them inside your UI handling step
